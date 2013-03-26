@@ -10,9 +10,9 @@ Ex2j::Application.routes.draw do
   end
 
   get "home/index"
-  match '/post/new' => "post#new"
+  match '/:controller/:action'
+  match '/:controller/:action/:id'
   match "/post" => "post#index"
-  match "/users/:user_id/post/:id/edit"=>"post#edit"
   match "/users/:user_id/post/:id"=>"post#show",:method=>"get"
 
   devise_for :users

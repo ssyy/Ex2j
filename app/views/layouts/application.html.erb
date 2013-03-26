@@ -23,11 +23,14 @@
 			<a href="/post">Files</a>
 		</li>
 		<% if current_user %>
-		<li class="offset5">
+		<li class="offset4">
 			<a href="/user"><%=current_user.email%></a>
 		</li>
 		<li class="">
-			<a href=""><i class="icon-home"></i><%= current_user.post.size%></a>
+			<a href=""><span class="badge"><%= current_user.post.size%></a></span>
+		</li>
+		<li class="">
+			<a href="">Logout</a>
 		</li>
 
 		<% else %>
