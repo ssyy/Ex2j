@@ -1,0 +1,7 @@
+<h1>post id  is <%=params[:user_id]%> <%=params[:post_id]%> ' comments here</h1>
+<% @comments.each  do |f|%>
+<div style="border:1px red solid;margin:10px">
+	<%= f.title %><br />
+	<%= f.content %><br />
+</div>
+<% end %>

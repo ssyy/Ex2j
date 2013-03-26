@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ex2j</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div class="container">
+<h3 class="muted">Ex2j</h3>
+<div class="navbar">
+<div CLASS="navbar-inner">
+<div class="container">
+	<ul class="nav">
+		<li class="">
+			<a href="/">Home</a>
+		</li>
+		<li class="">
+			<a href="/post">Notes</a>
+		</li>
+		<li class="">
+			<a href="/post">Files</a>
+		</li>
+		<% if current_user %>
+		<li class="offset5">
+			<a href="/user"><%=current_user.email%></a>
+		</li>
+		<li class="">
+			<a href=""><i class="icon-home"></i><%= current_user.post.size%></a>
+		</li>
+
+		<% else %>
+		<li class="offset6">
+			<a href="/users/sign_in">Login</a>
+		</li>
+		<% end  %>
+	</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<%= yield %>
+
+</body>
+</html>

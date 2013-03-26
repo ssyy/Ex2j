@@ -1,0 +1,15 @@
+<div class="container">
+<% @posts.each  do |p| %>
+<div class="well pricehover">
+<ul class="nav nav-list">
+	<li><%= p.title %></a></li>
+	<li class="well pricehover"><%= p.content %></li>
+	C at <%=p.created_at.localtime%><br/>
+	U at <%=p.updated_at.localtime%>
+	<li class="offset5 btn btn-small btn-faile"><%= link_to 'Show',"/users/#{current_user.id}/post/#{p.id}"%></li>
+	<li class="btn btn-small btn-faile"><%= link_to 'Edit',"/users/#{current_user.id}/post/#{p.id}/edit"%></li>
+	</ul>
+</div>
+<% end %>
+
+</div>

@@ -1,0 +1,7 @@
+<%= form_for @post,:url=>"/user/#{current_user.id}/post",:method=>"post" do |p| %>
+	<ul class="nav nav-list">
+		<li><%= p.text_field :title,:style=>"width:400px" ,:placeholder=>"Title..."%></li>
+		<li><%= p.text_area :content,:style=>"width:400px",:placeholder=>"Content..."%></li>
+		<li><%= p.submit %></li>
+	</ul>
+<% end %>

@@ -1,0 +1,20 @@
+<div class="container">
+<div class="well pricehover">
+<div>
+	<%= @post.title %>
+</div>
+<h4>Comments below</h4>
+
+<% @post.comment.each do |c| %>
+<div class="well pricehover">
+<ul class="nav nav-list">
+	<li>
+		<%= c.title %>
+		<%= c.content%>
+	</li>
+</ul>
+</div>
+<% end %>
+
+</div>
+</div>

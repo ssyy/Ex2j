@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  url: MyString
+  user: 1
+  lock: MyString
+  share: MyString
+
+two:
+  name: MyString
+  url: MyString
+  user: 1
+  lock: MyString
+  share: MyString

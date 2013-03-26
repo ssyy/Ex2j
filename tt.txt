@@ -1,0 +1,1000 @@
+  342  vi date.rb
+  343  ruby date.rb 
+  344  vi date.rb
+  345  ruby date.rb 
+  346  vi date.rb
+  347  ruby date.rb 
+  348  vi date.rb
+  349  ruby date.rb 
+  350  vi date.rb
+  351  ruby date.rb 
+  352  vi hash.rb
+  353  ruby hash.rb 
+  354  vi hash.rb
+  355  ruby hash.rb 
+  356  vi hash.rb
+  357  ruby hash.rb 
+  358  vi hash.rb
+  359  ruby hash.rb 
+  360  vi hash.rb
+  361  ruby hash.rb 
+  362  vi hash.rb
+  363  ruby hash.rb 
+  364  vi hash.rb
+  365  ruby hash.rb 
+  366  vi hash.rb
+  367  ruby hash.rb 
+  368  vi hash.rb
+  369  ruby hash.rb 
+  370  vi hash.rb
+  371  ruby hash.rb 
+  372  vi hash.rb
+  373  ruby hash.rb 
+  374  vi hash.rb
+  375  ruby hash.rb 
+  376  vi hash.rb
+  377  ruby hash.rb 
+  378  vi hash.rb
+  379  ruby hash.rb 
+  380  vi hash.rb
+  381  ruby hash.rb 
+  382  vi hash.rb
+  383  ruby hash.rb 
+  384  vi hash.rb
+  385  mv hash.rb random_key.rb
+  386  ruby random_key.rb 
+  387  vi random_key.rb 
+  388  ruby random_key.rb 
+  389  vi random_key.rb 
+  390  vi random_key.rb >> r.txt
+  391  irb
+  392  ll
+  393  more r.txt 
+  394  ruby random_key.rb >> r.txt 
+  395  more  r.txt 
+  396  vi random_key.rb 
+  397  ruby random_key.rb >> r.txt 
+  398  more r.txt 
+  399  :q
+  400  vi matching.rb
+  401  ruby matching.rb 
+  402  vi matching.rb
+  403  ruby matching.rb 
+  404  vi matching.rb
+  405  ruby matching.rb 
+  406  vi matching.rb
+  407  ruby matching.rb 
+  408  vi matching.rb
+  409  ruby matching.rb 
+  410  vi matching.rb
+  411  ruby matching.rb 
+  412  vi matching.rb
+  413  ruby matching.rb 
+  414  vi matching.rb
+  415  ruby matching.rb 
+  416  vi matching.rb
+  417  ruby matching.rb 
+  418  vi matching.rb
+  419  ruby matching.rb 
+  420  vi matching.rb
+  421  ruby matching.rb 
+  422  vi matching.rb
+  423  ruby matching.rb 
+  424  vi matching.rb
+  425  ruby matching.rb 
+  426  vi matching.rb
+  427  ruby matching.rb 
+  428  vi case.rb
+  429  ruby case.rb 
+  430  irb
+  431  cd ../Coding/Blog/
+  432  rails s
+  433  ll
+  434  cd Coding/Blog/
+  435  rails s
+  436  ll
+  437  vi Gemfile
+  438  bundle 
+  439  vi Gemfile
+  440  bundle  install
+  441  bundle
+  442  ll
+  443  rails g devise:install
+  444  cd ..
+  445  rails new  Devise
+  446  cd Devise/
+  447  rails g devise:install
+  448  vi Gemfile
+  449  rails g devise:install
+  450  rails g devise MODEL
+  451  rails d devise MODEL
+  452  rails g devise user
+  453  rake db:migreate
+  454  rake db:migrate
+  455  rails s
+  456  gem list
+  457  rails dbconsole
+  458  ll
+  459  clear
+  460  ifconfig 
+  461  cd ..
+  462  cd Devise/
+  463  ll
+  464  rm public/index.html 
+  465  ll
+  466  cd config/
+  467  cat routes.rb 
+  468  cd ../..
+  469  cd Devise/
+  470  rake routes
+  471  rails dbconsole
+  472  ll
+  473  rake routes
+  474  rails c
+  475  rails g devise:view
+  476  rails g devise:views
+  477  rails g devise:views users
+  478  rake routes
+  479  rails dbconsole
+  480  ll
+  481  rails c
+  482  rake route
+  483  rake routes
+  484  rails c
+  485  cd ..
+  486  ll
+  487  cd devise_example-master/
+  488  ll
+  489  cd dd
+  490  cd de
+  491  cd devise_example-master/
+  492  ll
+  493  rails s 
+  494  bundle install
+  495  rails s
+  496  rake db:reset
+  497  bundle exec
+  498  cd db/
+  499  ll
+  500  cat development.sqlite3 
+  501  more development.sqlite3 
+  502  cd ..
+  503  ll
+  504  cd config/
+  505  ll
+  506  more database.yml 
+  507  cd ..
+  508  rails s 
+  509  rake db:migrate
+  510  vi Gemfile
+  511  bundle
+  512  rails s
+  513  rake db:reset
+  514  bundle exec rake 0.9.2
+  515  bundle exec:rake 0.9.2
+  516  bundle exec:rake0.9.2
+  517  rake routes
+  518  ll
+  519  ls
+  520  vi Net.rb 
+  521  irb
+  522  ll
+  523  vi Net.rb 
+  524  ruby Net.rb 
+  525  vi Net.rb 
+  526  ruby Net.rb 
+  527  vi Net.rb 
+  528  ruby Net.rb 
+  529  vi Net.rb 
+  530  ruby Net.rb 
+  531  vi Net.rb 
+  532  ruby Net.rb 
+  533  vi Net.rb 
+  534  ruby Net.rb 
+  535  vi Net.rb 
+  536  ruby Net.rb 
+  537  vi Net.rb 
+  538  ruby Net.rb 
+  539  vi Net.rb 
+  540  ruby Net.rb 
+  541  cd ..
+  542  cd ~
+  543  cd Coding/Css/
+  544  ll
+  545  vi Gemfile
+  546  rails s
+  547  bundle instakk
+  548  bundle install
+  549  ll
+  550  rails s 
+  551  cd ..
+  552  cd Coding/Blog/
+  553  rails s
+  554  ll
+  555  vi app/views/tickets/index.html.erb 
+  556  vi app/views/layouts/_navigation.html.erb 
+  557  git diff
+  558  ll
+  559  cd ..
+  560  ll
+  561  cd spark/
+  562  ll
+  563  git diff
+  564  vi app/views/layouts/_navigation.html.erb 
+  565  git diff
+  566  git ls-files
+  567  git ls-files -m
+  568  git commit app/views/layouts/_navigation.html.erb -m
+  569  git commit -吗app/views/layouts/_navigation.html.erb
+  570  git commit -m app/views/layouts/_navigation.html.erb
+  571  git diff
+  572  git commit -m "edit menu name "app/views/layouts/_navigation.html.erb
+  573  git add app/views/layouts/_navigation.html.erb
+  574  git commit -m "edit menu name "app/views/layouts/_navigation.html.erb
+  575  gid diff
+  576  git diff
+  577  vi app/views/tickets/show.html.erb 
+  578  vi app/views/tickets/index.html.erb 
+  579  git add app/views/tickets/index.html.erb
+  580  git commit -m "edit menu name" app/views/tickets/index.html.erb
+  581  git  diff
+  582  rake dbconsole
+  583  rails dbcosole
+  584  rails dbconsole
+  585  clear
+  586  tail -f log/development.log 
+  587  rake db:migreate
+  588  rake db:migrate
+  589  rails dbconsole
+  590  bundle exec rake db:mgrate
+  591  bundle exec rake db:migrate
+  592  rails g controller home index
+  593  rails g scaffold post name:string content:text
+  594  rake db:migrate
+  595  rails c
+  596  rails dbconsole
+  597  ll
+  598  git 
+  599  git log
+  600  ll
+  601  cd ..
+  602  rm -fr spark/
+  603  ll
+  604  git clone git@192.168.8.202:cbu/spark.git
+  605  cd spark/
+  606  git branch
+  607  git branch -r
+  608  git checkout origin/develop
+  609  ll
+  610  vi app/views/layouts/_navigation.html.erb 
+  611  vi app/views/tickets/index.html.erb 
+  612  git diff
+  613  git ls-files
+  614  git ls-files -m
+  615  git add app/views/layouts/_navigation.html.erb
+  616  git add app/views/tickets/index.html.erb
+  617  git commit -m "edit menu name" 
+  618  git pull
+  619  git status
+  620  git diff
+  621  clear
+  622  git pull
+  623  git pull develop
+  624  git pull origin/develop
+  625  git status
+  626  git checkout origin/develop
+  627  ll
+  628  git diff
+  629  git push origin develop
+  630  git branch
+  631  git branch -r
+  632  git push origin develop:develop
+  633  ll
+  634  vi app/views/layouts/_navigation.html.erb 
+  635  vi app/views/tickets/index.html.erb 
+  636  git diff
+  637  git add app/views/layouts/_navigation.html.erb
+  638  git add app/views/tickets/index.html.erb
+  639  git commit -m "edit menu"
+  640  git push develop
+  641  git push origin develop
+  642  git push origin develop:develop
+  643  git diff
+  644  git push origin develop:develop
+  645  git pul
+  646  git pull
+  647  git pull origin develo[
+  648  git pull origin develop
+  649  git diff
+  650  vi app/views/layouts/_navigation.html.erb 
+  651  vi app/views/tickets/index.html.erb 
+  652  git push origin develop:develop
+  653  git push origin develop
+  654  git push
+  655  git log
+  656  ll
+  657  git pull origin develop
+  658  git log
+  659  git pull origin develop
+  660  ll
+  661  git diff
+  662  git pull origin develop
+  663  git branch -r
+  664  git checkout origin/develop 
+  665  ll
+  666  vi app/views/layouts/_navigation.html.erb 
+  667  git commit -m "edit menu name" app/views/layouts/_navigation.html.erb 
+  668  git push origin develop
+  669  git push origin develop:develop
+  670  git log
+  671  git fetch
+  672  git merge
+  673  git merge -n
+  674  git pull
+  675  git checkout -b origin develop develop
+  676  git checkout -b develop develop
+  677  git checkout -r
+  678  git branch -r
+  679  git checkout -b origin develop
+  680  rake routes
+  681  vi Gemfile
+  682  bundle install
+  683  rake routes
+  684  rails s
+  685  bundle install
+  686  ll
+  687  rail s
+  688  rails s
+  689  cd .git/
+  690  ll
+  691  cd branches/
+  692  ll
+  693  cd ..
+  694  git branch
+  695  cd ..
+  696  rm -rf spark/
+  697  git clone git@192.168.8.202:cbu/spark.git
+  698  ll
+  699  cd spark/
+  700  ll
+  701  git branch
+  702  git branch develop
+  703  git branch
+  704  git checkout develop
+  705  git checkout origin develop
+  706  ll
+  707  cd ..
+  708  cd spark/
+  709  ll
+  710  git branck -r
+  711  git branch -r
+  712  git checkout origin develop
+  713  cd ..
+  714  rm -rf spark/
+  715  ll
+  716  git clone git@192.168.8.202:cbu/spark.git
+  717  cd spark/
+  718  ll
+  719  git checkout -b develop
+  720  ll
+  721  git checkout develop
+  722  ll
+  723  git checkout origin develop
+  724  ll
+  725  git branch -ra
+  726  git checkout origin/develop
+  727  ll
+  728  git branch 
+  729  git checkout -b origin/develop
+  730  git branch 
+  731  git checkout -b develop
+  732  git checkoutdevelop
+  733  git checkout develop
+  734  ll
+  735  git checkout -b develop
+  736  git checkout -b origin/develop
+  737  rm -rf spark/
+  738  ll
+  739  git clone shengyu.yang@192.168.8.202:cbu/spark.git
+  740  git clone shengyu.yang@chinacache@192.168.8.202:cbu/spark.git
+  741  git clone git@192.168.8.202:cbu/spark.git
+  742  cd spark/
+  743  ll
+  744  cd ..
+  745  rm -rf spark/
+  746  git clone git://192.168.8.202:cbu/spark.git
+  747  git http://192.168.8.202/cbu/spark.git
+  748  git clone http://192.168.8.202/cbu/spark.git
+  749  cd spark/
+  750  ll
+  751  cd ..
+  752  ll
+  753  cd spark/
+  754  ll
+  755  cd ..
+  756  rm -rf spark/
+  757  mkdir Work
+  758  cd Work/
+  759  ll
+  760  mkdir spark
+  761  cd spark/
+  762  git clone git@192.168.8.202:cbu/spark.git
+  763  cd ..
+  764  ll
+  765  cd spark/
+  766  ll
+  767  cd spark/
+  768  ll
+  769  git branch
+  770  git checkou
+  771  git branch -a
+  772  git checkout remotes/origin/develop
+  773  git checkout develop
+  774  git branch -r
+  775  git checkout origin/master
+  776  ll
+  777  git checkout origin/develop
+  778  ll
+  779  cd ..
+  780  ll
+  781  rm -rf spark/
+  782  cd ..
+  783  rm -f spark/
+  784  rm -fr spark/
+  785  ll
+  786  git clone git@192.168.8.202:cbu/spark.git
+  787  ll
+  788  cd spark/
+  789  ll
+  790  git branch
+  791  git branch -r
+  792  git checkout origin/develop
+  793  ll
+  794  rails s
+  795  bundle install
+  796  vi Gemfile
+  797  bundle install
+  798  rails s
+  799  rake db:reset
+  800  rails s
+  801  git diff
+  802  git ls-files -m
+  803  git diff
+  804  git ls-files
+  805  git ls-files -m
+  806  git commit -m app/views/layouts/_navigation.html.erb
+  807  git add 
+  808  git add .
+  809  git commit -m app/views/layouts/_navigation.html.erb
+  810  git config --global user.name "shengyu.yang"
+  811  git config --global user.email "shengyu.yang@chinacache.com"
+  812  git commit -m app/views/layouts/_navigation.html.erb
+  813  git ls-files -m
+  814  git reset
+  815  git ls-files -m
+  816  git diff
+  817  git ls-files 
+  818  git ls-files -m
+  819  git reset HEAD
+  820  git ls-files -m
+  821  git log
+  822  git reset --hard
+  823  git ls-files -m
+  824  git log
+  825  git diff
+  826  git diff HEAD
+  827  git diff eb36b4
+  828  git pull
+  829  git-pull(1)
+  830  cd ..
+  831  rm -rf spark/
+  832  git clone git@192.168.8.202:cbu/spark.git
+  833  git
+  834  ll
+  835  cd spark/
+  836  git branch -a
+  837  git checkout /origin/develop
+  838  git checkout origin/develop
+  839  ll
+  840  git diff
+  841  git log
+  842  git 
+  843  cd ..
+  844  ll
+  845  cd Coding/Blog/
+  846  rails s
+  847  cd ..
+  848  rails new JustTest
+  849  rails s 
+  850  cd JustTest/
+  851  rails s
+  852  vi Gemfile
+  853  rails s
+  854  cd ..
+  855  cd spark/
+  856  rails s
+  857  vi Gemfile
+  858  bundle install
+  859  rake db:reset
+  860  rails s
+  861  cd Coding/JustTest/
+  862  rails s
+  863  ifconfig 
+  864  rake routes
+  865  rails dbconsole
+  866  cd db/
+  867  ll
+  868  sqlite3 development.sqlite3 
+  869  rails c
+  870  cd Coding/JustTest/
+  871  rails s
+  872  rake db:migrate
+  873  rails s
+  874  rake routes
+  875  rails c
+  876  cd ..
+  877  cd JustTest/
+  878  ll
+  879  cd ..
+  880  cd Work/
+  881  ll
+  882  cd spark/
+  883  ll
+  884  git checkout origin/develop
+  885  ll
+  886  cd ..
+  887  cd Coding/JustTest/
+  888  ll
+  889  rake routes
+  890  rails s 
+  891  rake routes
+  892  rails s 
+  893  mkdir Workspace
+  894  cd Workspace/
+  895  git clone git@192.168.8.202:cbu/spark.git
+  896  ll
+  897  cs spark/
+  898  cd spark/
+  899  ll
+  900  git checkout -b develop --track origin/develop
+  901  ll
+  902  vi app/views/layouts/_navigation.html.erb 
+  903  vi app/views/tickets/index.html.erb 
+  904  git ls-files -m
+  905  git commit
+  906  git add app/views/layouts/_navigation.html.erb
+  907  git add app/views/tickets/index.html.erb
+  908  git commit -m "edit menu name"
+  909  git push
+  910  rails g model file name:string url:string size:float share_status:string owner_id:integer lock_status:string 
+  911  rails g model files name:string url:string size:float share_status:string owner_id:integer lock_status:string 
+  912  rake db:migrate
+  913  rails g model user name:string passwd:string root_dir:string right_id:integer file_count:i
+  914  rake db:migrate
+  915  rails g model right user_id:integer size:integer filesize:integer 
+  916  rake db:migrate
+  917  rails g controller files
+  918  rake routes
+  919  rails d controller files
+  920  rails g controller manager
+  921  rake routes
+  922  rails d model user
+  923  rails g scaffold user name:string passwd:string right_id:integer file_count:integer
+  924  rails db:migrate
+  925  rake db:migrate
+  926  rake db:drop
+  927  rake db:drop users
+  928  rake db:drop_table users
+  929  rake db:drop:users
+  930  rake db:drop:user
+  931  rarils console
+  932  rails console
+  933  rails dbconsole
+  934  rails db:migrate
+  935  rake db:migrate
+  936  rake db:drop
+  937  rake db:drop:all
+  938  rake db:migrate
+  939  rake routes
+  940  rails c
+  941  rake routes
+  942  cd ..
+  943  ll
+  944  vi Net.rb 
+  945  ruby Net.rb 
+  946  clear
+  947  ruby Net.rb 
+  948  clear
+  949  ruby Net.rb 
+  950  vi Net.rb 
+  951  ruby Net.rb 
+  952  vi Net.rb 
+  953  ruby Net.rb 
+  954  vi Net.rb 
+  955  ruby Net.rb 
+  956  vi Net.rb 
+  957  ruby Net.rb 
+  958  vi Net.rb 
+  959  ruby Net.rb 
+  960  vi Net.rb 
+  961  ruby Net.rb 
+  962  vi Net.rb 
+  963  ruby Net.rb 
+  964  cd Work/
+  965  cd spark/
+  966  ll
+  967  git diff
+  968  git pull
+  969  git pull origin/develop
+  970  git pull develop
+  971  git pull origin/develop
+  972  git branch 
+  973  git pull origin/develop
+  974  git pull develop
+  975  ~cd ~
+  976  cd ~
+  977  vi Net.rb 
+  978  ruby Net.rb 
+  979  vi Net.rb 
+  980  ruby Net.rb 
+  981  vi Net.rb 
+  982  CD ../../
+  983  cd  ../../
+  984  cd Coding/JustTest/
+  985  ll
+  986  rails 
+  987  rails s
+  988  ll
+  989  bundle exec rake stats
+  990  rake stats
+  991  clear
+  992  rails g migrate add_right_id_to_user
+  993  rails g migration add_right_id_to_user
+  994  rake db:migrate
+  995  ll
+  996  rails g model roll name:string right:integer 
+  997  rails g migration add_role_id_to_user
+  998  rake db:migrate
+  999  cd ..
+ 1000  cd ../Workspace/
+ 1001  ll
+ 1002  cd spark/
+ 1003  git pull
+ 1004  cd ..
+ 1005  cd ~
+ 1006  cd LearningRuby/
+ 1007  LL
+ 1008  ll
+ 1009  ruby filemanager.rb 
+ 1010  sudo ruby filemanager.rb 
+ 1011  ruby filemanager.rb 
+ 1012  rm -rf /home/yang/testFile
+ 1013  ruby filemanager.rb 
+ 1014  irb
+ 1015  ruby filemanager.rb 
+ 1016  ll
+ 1017  cd ..
+ 1018  ll testFile/
+ 1019  cd LearningRuby/
+ 1020  ll
+ 1021  vi filemanager.rb 
+ 1022  cd Coding/JustTest/
+ 1023  ll
+ 1024  rails s 
+ 1025  rake db:migrate
+ 1026  rails s 
+ 1027  rake db:migrate
+ 1028  rails s 
+ 1029  rake db:migrate
+ 1030  rails s 
+ 1031  ll
+ 1032  rake routes
+ 1033  cd ~/LearningRuby/
+ 1034  ruby filemanager.rb 
+ 1035  irb
+ 1036  ruby filemanager.rb 
+ 1037  ruby Net.rb 
+ 1038  irb
+ 1039  vi Net.rb 
+ 1040  ruby Net.rb 
+ 1041  vi Net.rb 
+ 1042  ruby Net.rb 
+ 1043  vi Net.rb 
+ 1044  ruby Net.rb 
+ 1045  vi Net.rb 
+ 1046  ruby Net.rb 
+ 1047  vi Net.rb 
+ 1048  ruby Net.rb 
+ 1049  vi Net.rb 
+ 1050  ruby Net.rb 
+ 1051  irb
+ 1052  ll
+ 1053  vi Net.rb 
+ 1054  irb
+ 1055  vi Net.rb 
+ 1056  ruby Net.rb 
+ 1057  vi Net.rb 
+ 1058  irb
+ 1059  vi Net.rb 
+ 1060  ruby Net.rb 
+ 1061  vi Net.rb 
+ 1062  ruby Net.rb 
+ 1063  vi Net.rb 
+ 1064  ruby Net.rb 
+ 1065  vi Net.rb 
+ 1066  ruby Net.rb 
+ 1067  vi Net.rb 
+ 1068  ruby Net.rb 
+ 1069  vi Net.rb 
+ 1070  ruby Net.rb 
+ 1071  vi Net.rb 
+ 1072  ruby Net.rb 
+ 1073  cd LearningRuby/
+ 1074  vi mail.rb
+ 1075  ruby mail.rb 
+ 1076  vi mail.rb
+ 1077  ruby mail.rb 
+ 1078  vi mail.rb
+ 1079  ruby mail.rb 
+ 1080  vi mail.rb
+ 1081  ruby mail.rb 
+ 1082  vi mail.rb
+ 1083  ruby mail.rb 
+ 1084  ll
+ 1085  cd Coding/JustTest/
+ 1086  rails s 
+ 1087  rake routes
+ 1088  irb
+ 1089  cd ..
+ 1090  cd Workspace/spark/
+ 1091  rails s -p 4000
+ 1092  vi Gemfile
+ 1093  bundle install
+ 1094  rails s -p 4000
+ 1095  rake -tasks
+ 1096  rake --tasks
+ 1097  rake routes
+ 1098  rake doc
+ 1099  rake doc/app
+ 1100  rake doc:app
+ 1101  cd Coding/jobs.ruby.tw-master/
+ 1102  ll
+ 1103  cp config/database.yml.example  config/database.yml
+ 1104  bundle 
+ 1105  vi Gemfile
+ 1106  bundle 
+ 1107  rails s
+ 1108  rake db:create:all
+ 1109  cp config/database.yml.example config/database.yml
+ 1110  rake db:create:all
+ 1111  clear
+ 1112  rake db:create:all
+ 1113  vi Gemfile
+ 1114  bundle 
+ 1115  rake db:create:all
+ 1116  rake db:migrate
+ 1117  rake db:seed
+ 1118  rails s 
+ 1119  rails dbconsole
+ 1120  clear
+ 1121  rails c
+ 1122  rake routes
+ 1123  cd LearningRuby/
+ 1124  ruby Time.rb 
+ 1125  cd ..
+ 1126  ruby Time.rb 
+ 1127  cd ~
+ 1128  ruby Time.rb 
+ 1129  cd LearningRuby/
+ 1130  ruby Time.rb 
+ 1131  irb
+ 1132  ruby Time.rb 
+ 1133  ruby Datetime
+ 1134  ruby Datetime.rb
+ 1135  ruby Download.rb 
+ 1136  cd ..
+ 1137  cd Coding/
+ 1138  ll
+ 1139  rails new Bolgx
+ 1140  cd Bolgx/
+ 1141  vi Gemfile
+ 1142  bundle 
+ 1143  ll
+ 1144  cd app/
+ 1145  ll
+ 1146  cd assets/
+ 1147  ll
+ 1148  cd stylesheets/
+ 1149  ll
+ 1150  cd ..
+ 1151  cdd..
+ 1152  cd ..
+ 1153  ll
+ 1154  cd views/
+ 1155  ll
+ 1156  ll layouts/
+ 1157  cd ..
+ 1158  gem list
+ 1159  vi Gemfile
+ 1160  bundle 
+ 1161  rails g devise User
+ 1162  rake routes
+ 1163  rake db:migrate
+ 1164  rails d devise User
+ 1165  rails d User
+ 1166  rails d devise 
+ 1167  vi Gemfile
+ 1168  rake routes
+ 1169  ll
+ 1170  cd Coding/
+ 1171  cd TestDevise/
+ 1172  ll
+ 1173  rake routes
+ 1174  cd ..
+ 1175  cd Devise/
+ 1176  rails s
+ 1177  cd ../JustTest/
+ 1178  rails s 
+ 1179  cd ..
+ 1180  cd TestDevise/
+ 1181  rails s
+ 1182  cd ..
+ 1183  ll
+ 1184  rails new BB
+ 1185  cd BB
+ 1186  vi Gemfile
+ 1187  bundle  install
+ 1188  rm public/index.html 
+ 1189  vi config/routes.rb 
+ 1190  rails g controller home
+ 1191  rails s 
+ 1192  rake db:migrate
+ 1193  cd Coding/
+ 1194  cd Ex2j/
+ 1195  rails s
+ 1196  vi app/views/home/index.html.erb 
+ 1197  rake routes
+ 1198  vi app/views/home/index.html.erb 
+ 1199  vi app/views/layouts/application.html.erb 
+ 1200  cd Coding/Ex2j/
+ 1201  rails g devise_views
+ 1202  rails g devise:views
+ 1203  ll
+ 1204  vi app/views/
+ 1205  vi app/views/devise/sessions/new.html.erb 
+ 1206  rails s 
+ 1207  ps
+ 1208  ps -ux
+ 1209  ps -ux|grep Ex
+ 1210  ps -ux|grep ru
+ 1211  rails s -p 4000
+ 1212  vi app/views/devise/sessions/new.html.erb 
+ 1213  cd Coding/Ex2j/
+ 1214  rails s 
+ 1215  rails c 
+ 1216  vi app/views/home/index.html.erb 
+ 1217  rails c
+ 1218  ll
+ 1219  cd app/models/
+ 1220  ll
+ 1221  vi files post.rb user.rb  filescomment.rb  comment.rb 
+ 1222  vi files.rb post.rb user.rb  filescomment.rb  comment.rb 
+ 1223  vi user.rb 
+ 1224  vi filescomment.rb 
+ 1225  vi user.rb 
+ 1226  vi filescomment.rb 
+ 1227  rake db:migrate
+ 1228  cd ..
+ 1229  ll
+ 1230  git add .
+ 1231  git init 
+ 1232  touch README
+ 1233  git add README
+ 1234  git commit -m 'first commit'
+ 1235  git diff
+ 1236  git add .
+ 1237  git diff
+ 1238  git stats
+ 1239  git status
+ 1240  git commit -m 'commit all files'
+ 1241  git diff
+ 1242  git status
+ 1243  ll
+ 1244  vi README
+ 1245  git diff
+ 1246  git status
+ 1247  git add .
+ 1248  git diff
+ 1249  git status
+ 1250  git commit -m "update README"
+ 1251  git status
+ 1252  git log
+ 1253  :wq
+ 1254  :quti
+ 1255  shutdown now
+ 1256  sudo shutdown now
+ 1257  rake routes
+ 1258  rake migration add_to_post user_id:integer
+ 1259  rake migration add_user_id_to_post user_id:integer
+ 1260  rails g  migration add_user_id_to_post user_id:integer
+ 1261  rake db:migrate
+ 1262  rails db:drop
+ 1263  rails g db:drop
+ 1264  rake db:drop
+ 1265  rake db:migrate
+ 1266  rails c
+ 1267  rake routes
+ 1268  rails g controller comments
+ 1269  cd ..
+ 1270  rails new demo
+ 1271  rake routes
+ 1272  rails g controller post
+ 1273  rake routes
+ 1274  rails dbconsole
+ 1275  rails c
+ 1276  rails dbconsole
+ 1277  cd LearningRuby/
+ 1278  vi methodmissing.rb
+ 1279  ruby methodmissing.rb 
+ 1280  vi method_defind.rb
+ 1281  ruby method_defind.rb 
+ 1282  vi method_defind.rb
+ 1283  cd ..
+ 1284  cd Workspace/spark/
+ 1285  git pull
+ 1286  cd ..
+ 1287  cd Coding/Ex2j/
+ 1288  rails s 
+ 1289  cd ..
+ 1290  cd demo/
+ 1291  rails s -p 4000
+ 1292  vi Gemfile
+ 1293  bundle 
+ 1294  rails s -p 4000
+ 1295  rake routes
+ 1296  cd ~/Workspace/
+ 1297  cd spark/
+ 1298  rake routes
+ 1299  vi Gemfile
+ 1300  git pull
+ 1301  git diff
+ 1302  git status
+ 1303  git checkout
+ 1304  git checkout develop
+ 1305  git checkout origin/develop
+ 1306  git checkout origin/develop develop 
+ 1307  git ls-files
+ 1308  git ls-files -m
+ 1309  clear
+ 1310  cd ~/Coding/Ex2j/
+ 1311  ll
+ 1312  rake routes
+ 1313  rails g controller users index
+ 1314  rake routes
+ 1315  rails d controller users index
+ 1316  rails g controller user index
+ 1317  rake routes
+ 1318  git diff
+ 1319  git add .
+ 1320  git commit
+ 1321  git diff
+ 1322  clear
+ 1323  rake routes
+ 1324  rails d controller user index
+ 1325  rake routes
+ 1326  clear
+ 1327  rake routes
+ 1328  rails g controller user index
+ 1329  rake routes
+ 1330  rake db:migrate
+ 1331  history 
+ 1332  rake migration add_name_to_user name:string
+ 1333  rails g migration add_name_to_user name:string
+ 1334  rake db:migrate
+ 1335  rails g migration add_birth_to_user birth:date
+ 1336  rails g migration add_image_to_user image:url
+ 1337  rake db:migrate
+ 1338  ifconfig 
+ 1339  rake routes
+ 1340  history 
+ 1341  history > tt.txt

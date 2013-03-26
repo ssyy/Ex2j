@@ -1,0 +1,22 @@
+<div class="container">
+<div class="well pricehover" style="height:470px">
+		<div class="span5">
+			<div class="container">
+				<div class="container-fliud">
+					<div class="row-fluid">
+						<%= render 'form2' %>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="span3">
+			<ul class="nav nav-list">
+				<% @post.comment.each do |c| %>
+				<div class="well pricehover">
+					<li><%= c.title %></li>
+				</div>
+				<% end %>
+			</ul>
+		</div>
+	</div>
+</div>
