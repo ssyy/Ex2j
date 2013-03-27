@@ -13,8 +13,6 @@ class CommentsController < ApplicationController
 
 		user_id = params[:user_id]
 		post_id = params[:post_id]
-
-
 		@comments = current_user.post.find(post_id).comment.all
 
 		respond_to do |f|
@@ -35,7 +33,7 @@ class CommentsController < ApplicationController
 		comment.save
 
 		respond_to do |f|
-			f.html{ redirect_to  }
+			f.html{ redirect_to "/post/show/#{post_id}" }
 		end
 	end
 

@@ -20,19 +20,22 @@
 			<a href="/post">Notes</a>
 		</li>
 		<li class="">
-			<a href="/post">Files</a>
+			<a href="/files">Files</a>
 		</li>
 		<% if current_user %>
-		<li class="offset4">
+		<li class="offset5">
 			<a href="/user"><%=current_user.email%></a>
 		</li>
-		<li class="">
-			<a href=""><span class="badge"><%= current_user.post.size%></a></span>
-		</li>
-		<li class="">
-			<a href="">Logout</a>
-		</li>
+		
+		<!-- <li class="">
+			<form class="navbar-search pull-right">
+				<input class="search-query"/>
+			</form>
+		</li> -->
 
+		<li class="">
+			<a href="/user/logout">Leave</a>
+		</li>
 		<% else %>
 		<li class="offset6">
 			<a href="/users/sign_in">Login</a>

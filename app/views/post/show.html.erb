@@ -1,5 +1,7 @@
 <div class="container">
 <div class="well pricehover">
+<div class="container">
+<div class="span5">
 <div>
 	<%= @post.title %>
 </div>
@@ -15,6 +17,7 @@
 </ul>
 </div>
 <% end %>
-
+</div>
+<div class="offset5"><%= render "comments/form" %></div>
 </div>
 </div>

@@ -1,8 +1,11 @@
 Ex2j::Application.routes.draw do
 
 
-  get "user/index"
+  get "files/index"
 
+  get "user/index"
+  match "/user/logout" =>"user#logout"
+  
   resources :user do
     resources :post do
       resources :comments  
@@ -12,9 +15,8 @@ Ex2j::Application.routes.draw do
   get "home/index"
   match '/:controller/:action'
   match '/:controller/:action/:id'
-  match "/post" => "post#index"
-  match "/users/:user_id/post/:id"=>"post#show",:method=>"get"
-
+  match "/post"  => "post#index"
+  match "/files" => "files#index"
   devise_for :users
 
 

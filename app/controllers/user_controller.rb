@@ -15,7 +15,8 @@ class UserController < ApplicationController
   end
 
   def logout
-  	current_user
+  		sign_out current_user
+  		redirect_to "/"
   end
 
 end

@@ -1,7 +1,12 @@
 <%= form_for @post,:url=>"/user/#{current_user.id}/post",:method=>"post" do |p| %>
 	<ul class="nav nav-list">
-		<li><%= p.text_field :title,:style=>"width:400px" ,:placeholder=>"Title..."%></li>
-		<li><%= p.text_area :content,:style=>"width:400px",:placeholder=>"Content..."%></li>
+		<li>
+			<%= p.text_field :title,:style=>"width:296px" ,:placeholder=>"Title..."%>
+
+			<%= p.select :ptype,options_from_collection_for_select(Type.all,"id","name")%>
+		</li>
+		<li><%= p.text_area :content,:style=>"width:400px",:placeholder=>"Content..."%>
+		</li>
 		<li><%= p.submit %></li>
 	</ul>
 <% end %>
