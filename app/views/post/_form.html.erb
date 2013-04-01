@@ -1,12 +1,30 @@
 <%= form_for @post,:url=>"/user/#{current_user.id}/post",:method=>"post" do |p| %>
 	<ul class="nav nav-list">
 		<li>
-			<%= p.text_field :title,:style=>"width:296px" ,:placeholder=>"Title..."%>
-
+			<%= p.text_field :title,:style=>"width:260px" ,:placeholder=>"Title..."%>
+			<div class="input-append">
 			<%= p.select :ptype,options_from_collection_for_select(@types,"id","name")%>
+			<span class="add-on">
+				<a id="adda" href="#myModal" data-toggle="modal">add</a>
+			</span>
+			</div>
 		</li>
-		<li><%= p.text_area :content,:style=>"width:521px",:placeholder=>"Content..."%>
+		<li>
+			<%= p.text_area :content,:style=>"width:521px",:placeholder=>"Content..."%>
 		</li>
 		<li><%= p.submit %></li>
 	</ul>
 <% end %>
+<div id="adddiv" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel">Modal header</h3>
+  </div>
+  <div class="modal-body">
+    <input>
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">关闭</button>
+    <button class="btn btn-primary">Save changes</button>
+  </div>
+</div>

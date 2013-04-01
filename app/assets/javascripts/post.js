@@ -10,5 +10,9 @@ $(function(){
 	// 		}
 	// 	})
 	// })
+
+$('#adda').click(function(){
+	$('#adddiv').modal('show')
+	})
 })
 
