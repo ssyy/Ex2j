@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @ufile.name %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @ufile.user_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_ufile_path(@ufile) %> |
+<%= link_to 'Back', ufiles_path %>

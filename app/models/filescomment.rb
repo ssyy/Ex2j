@@ -1,5 +1,5 @@
 class Filescomment < ActiveRecord::Base
-  attr_accessible :content, :files_id, :name
-  belongs_to :files
+  attr_accessible :content, :ufile_id, :name
+  belongs_to :ufile
   belongs_to :user
 end

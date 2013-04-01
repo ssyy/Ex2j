@@ -1,0 +1,46 @@
+<div class="container"> 
+<% @ufiles.each do |ufile| %>
+  <table  class="table table-bordered table-striped">
+    <tbody>
+    <tr>
+      <td class="span1">
+      <% if ufile.name == "" %>
+        **
+      <% else %>
+        <%= ufile.name %>
+      <% end %> 
+  </td>
+   <td class="span5"> 
+      <% if ufile.src.exists? %>
+        <%= ufile.src.path[49,70]%>
+      <% else %>
+          **
+      <% end %> 
+  </td>
+  <td class="span2">
+      <% if ufile.src.exists? %>
+        <%= ufile.src.content_type.split("/")[1] %>
+      <% else %>
+          **
+      <% end %> 
+  </td>
+   <td class="span2">
+      <% if ufile.src.exists? %>
+        <%= ufile.created_at.localtime.to_s[0,19] %>
+      <% else %>
+          **
+      <% end %> 
+  </td>
+    <td class="span2">
+      <%= link_to 'Down', ufile %>
+      <%= link_to 'Edit', edit_ufile_path(ufile) %>
+      <%= link_to 'Destroy', ufile, method: :delete, data: { confirm: 'Are you sure?' } %>
+    </td>
+    </tr> 
+    </tbody>
+  </table>
+<% end %>
+</div>
+
+
+

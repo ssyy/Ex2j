@@ -1,14 +1,29 @@
 <div class="container">
-<div class="accordion" id="accordion2">
-<% @posts.each  do |p| %>
- 	<div class="accordion-group">
-		<div class="accordion-heading" style="background-color:#434343">
-	        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#<%=p.id%>"><%= p.title %></a>
+<div id="myTab" class="tabbable tabs-left">
+	<ul class="nav nav-tabs">
+		<li class="active"><a href="" data-toggle="tab">index</a></li>
+		<% @types.each do |type| %>
+			<li id="<%= type.id %>" >
+				<a id="<%= type.id %>" href="" data-toggle="tab"><%=type.name%></a></li>
+		<% end %>
+	</ul>
+	<div class="tab-content offset2">
+		<div class="accordion" id="accordion2">
+			<% @posts.each do |post| %>
+					<div class="accordion-group" id="<%=post.type_id%>"> 
+						<div class="accordion-heading" style="">
+							<a class="accordion-toggle"href="#<%=post.id%>" data-toggle="collapse"data-parent="#accordion2">
+								<%=post.title%>
+							</a>
+						</div>
+						<div id="<%=post.id%>" class="accordion-body collapse" style="height:0px">
+							<div class="accordion-inner">
+								<%=post.content%>
+							</div>
+						</div>
+					</div>
+			<% end %>
 		</div>
-		<div id="<%=p.id%>" class="accordion-body collapse in"style="background-color:#FFF28F">
-        <div class="accordion-inner"><%= p.content %> | <a href="/post/show/<%=p.id%>">Detail</a></div>
-		</div>
-	</div>
-<% end %>
+	</div> 
 </div>
 </div>

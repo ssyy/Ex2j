@@ -12,3 +12,6 @@
  *= require_tree .
  */
 
+.muted{
+	padding-left: 30px
+}

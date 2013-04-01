@@ -1,0 +1,38 @@
+<%= form_for(@ufile) do |f| %>
+  <% if @ufile.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@ufile.errors.count, "error") %> prohibited this ufile from being saved:</h2>
+
+      <ul>
+      <% @ufile.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+<table class="table table-bordered table-striped">
+  <tbody>
+   <tr> 
+      <td class="span5"><%= f.label :name %></td>
+      <td><%= f.text_field :name%></td>
+    </tr>
+    <% if @ufile.src.path %>
+    <tr> 
+      <td><%= label_tag "Type" %></td>
+      <td><%= select_tag ""%></td>
+    </tr>
+    <tr> 
+      <td><%= label_tag "url" %></td>
+      <td><%= @ufile.src.path[49,70] %></td>
+    </tr>
+    <% end %>
+    <tr>
+      <td></td>
+      <td><%= f.file_field :src %></td>
+    </tr>
+    </tbody>
+</table>
+  <div class="actions">
+    <%= f.submit :class=>"btn"%>
+  </div>
+<% end %>

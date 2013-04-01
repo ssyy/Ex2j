@@ -1,6 +1,9 @@
 Ex2j::Application.routes.draw do
 
 
+  resources :ufiles
+
+
   get "files/index"
 
   get "user/index"
@@ -16,7 +19,7 @@ Ex2j::Application.routes.draw do
   match '/:controller/:action'
   match '/:controller/:action/:id'
   match "/post"  => "post#index"
-  match "/files" => "files#index"
+  match "/files" => "ufiles#index"
   devise_for :users
 
 

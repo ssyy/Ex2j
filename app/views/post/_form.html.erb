@@ -3,9 +3,9 @@
 		<li>
 			<%= p.text_field :title,:style=>"width:296px" ,:placeholder=>"Title..."%>
 
-			<%= p.select :ptype,options_from_collection_for_select(Type.all,"id","name")%>
+			<%= p.select :ptype,options_from_collection_for_select(@types,"id","name")%>
 		</li>
-		<li><%= p.text_area :content,:style=>"width:400px",:placeholder=>"Content..."%>
+		<li><%= p.text_area :content,:style=>"width:521px",:placeholder=>"Content..."%>
 		</li>
 		<li><%= p.submit %></li>
 	</ul>

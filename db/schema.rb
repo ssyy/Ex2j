@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130327023948) do
+ActiveRecord::Schema.define(:version => 20130328065527) do
 
   create_table "comments", :force => true do |t|
     t.string   "title"
@@ -57,6 +57,18 @@ ActiveRecord::Schema.define(:version => 20130327023948) do
     t.string   "selftype"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.integer  "user_id"
+  end
+
+  create_table "ufiles", :force => true do |t|
+    t.string   "name"
+    t.integer  "user_id"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
+    t.string   "src_file_name"
+    t.string   "src_content_type"
+    t.integer  "src_file_size"
+    t.datetime "src_updated_at"
   end
 
 # Could not dump table "users" because of following StandardError
